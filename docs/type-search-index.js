@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"adapter","l":"CenterCoordinates"},{"p":"adapter","l":"CoordinatesAdapter"},{"p":"adapter","l":"Line"},{"p":"<Unnamed>","l":"Main"},{"p":"adapter","l":"Rectangle"},{"p":"adapter","l":"TopLeftCoordinates"}];updateSearchResults();

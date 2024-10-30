@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>adapter</OriginalElement>
+  <nodes>
+    <node x="903.6874999999995" y="101.50000000000006">adapter.Line</node>
+    <node x="302.5625000000001" y="101.50000000000006">adapter.Rectangle</node>
+    <node x="529.4999999999999" y="101.50000000000006">adapter.CoordinatesAdapter</node>
+    <node x="693.4999999999998" y="-233.74999999999994">adapter.TopLeftCoordinates</node>
+    <node x="407.75" y="-233.74999999999994">adapter.CenterCoordinates</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapter.Line" target="adapter.TopLeftCoordinates" relationship="REALIZATION">
+      <point x="0.0" y="-128.0" />
+      <point x="988.1874999999995" y="60.0" />
+      <point x="848.3559999999999" y="60.0" />
+      <point x="51.85600000000011" y="66.34650000000022" />
+    </edge>
+    <edge source="adapter.Rectangle" target="adapter.CenterCoordinates" relationship="REALIZATION">
+      <point x="0.0" y="-80.0" />
+      <point x="384.0625000000001" y="-52.937499999999886" />
+      <point x="507.75" y="-52.937499999999886" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="adapter.CoordinatesAdapter" target="adapter.TopLeftCoordinates" relationship="TO_ONE">
+      <point x="43.34599999999989" y="-39.83989999999997" />
+      <point x="677.3459999999998" y="41.99999999999977" />
+      <point x="762.4184999999999" y="41.99999999999977" />
+      <point x="-34.08149999999989" y="83.53400000000022" />
+    </edge>
+    <edge source="adapter.CoordinatesAdapter" target="adapter.CenterCoordinates" relationship="REALIZATION">
+      <point x="0.75" y="-39.125" />
+      <point x="634.7499999999999" y="91.62500000000017" />
+      <point x="633.9999999999999" y="91.62500000000017" />
+      <point x="633.9999999999999" y="-52.937499999999886" />
+      <point x="507.75" y="-52.937499999999886" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6400000000000005" showDependencies="true" x="762.9364999999998" y="78.66874999999959" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
